@@ -19,7 +19,7 @@ const Home = () => {
       <h1>Buttons (CSS Styling)</h1>
       <Button />
       <Button2 />
-      <Student name="Samuel Jackson" age={29} isStudent={true} />
+      <Student heading="Props" name="Samuel Jackson" age={29} isStudent={true} />
       <Student name="James Patrick" age={35} isStudent={false} />
       <Student name="Sarah Williams" age={25} isStudent={true} />
       <Student name="Elizabeth Keen" age={32} isStudent={false} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './pages/Home'
 import Conditional from './pages/Conditional'
+import Hooks from './pages/Hooks'
 import NavBtn from './components/NavBtn'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -20,8 +21,8 @@ const App = () => {
         <Routes>
           <Route path='/' element=<Home/> />
           <Route path='/conditional' element=<Conditional/> />
-          {/* <Route path='/services' element=<Services/> />
-          <Route path='/contact' element=<Contact/> />  */}
+          <Route path='/hooks' element=<Hooks/> />
+          {/* <Route path='/contact' element=<Contact/> />  */}
         </Routes>
       </Router> 
     </div>

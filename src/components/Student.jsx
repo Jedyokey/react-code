@@ -18,7 +18,7 @@ const Student = (props) => {
 
   return (
     <>
-        <h1>...props</h1>
+        <h1>{props.heading}</h1>
         <div className="student" style={student}>
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
