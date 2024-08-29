@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
 .card {
   border: 1px solid #bab1b1;
   border-radius: 10px;
@@ -28,6 +32,23 @@
 
 .student p {
   margin: 0;
+}
+
+.nav-bar {
+  background-color: rgb(136, 197, 189);
+  padding: 20px;
+  margin: -8px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar .nav-link:hover {
+  text-decoration: underline;
 }
 
 .welcome-message {
@@ -126,3 +147,126 @@
   border: 3px solid #ddd0d0;
   border-radius: 5px;
 }
+
+/* To-Do list style */
+.project-1 {
+  background-color: #c599c0;
+  height: 200vh;
+  margin: 0 -10px;
+}
+.to-do-list-container {
+  padding-top: 50px;
+}
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: -30px;
+}
+.to-do-list h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.to-do-list button {
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 9px;
+  transition: background-color 0.5s ease;
+}
+ .to-do-list .add-button {
+  background-color: rgb(22, 210, 22);
+  margin-left: 10px;
+ }
+ .to-do-list .add-button:hover {
+  background-color: rgb(20, 165, 15);
+ }
+ .to-do-list .delete-button {
+  background-color: rgb(246, 25, 25);
+ }
+ .to-do-list .delete-button:hover {
+  background-color: rgb(201, 22, 22);
+ }
+ .to-do-list .move-button {
+  background-color: rgb(45, 138, 232);
+ }
+ .to-do-list .move-button:hover {
+  background-color: rgb(34, 118, 202);
+ }
+ .to-do-list input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 3px solid #ddd0d0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+ .to-do-list ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ }
+ .to-do-list ol li {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border: 3px solid #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto ;
+  margin-bottom: 10px;
+ }
+ .to-do-list ol .text {
+  flex: 1; 
+ }
+ .to-do-list .delete-button, .to-do-list .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px; 
+ }
+
+ /* Digital Clock Style */
+ .clock-container {
+  background-image: linear-gradient(rgba(11, 28, 184, 0.058), 
+  rgba(0, 0, 0, 0.8)), url("../src/images/Picture-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* backdrop-filter: blur(5px); */
+  height: 45vh;
+  width: 100vw;
+  margin: -8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .clock-container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fffb0a;
+ }
+ .clock-container .clock {
+  color: #c1db2e;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
+ }
+
+ /* Use Context() begins */
+ .box {
+  border: 3px solid #000;
+  padding: 25px;
+  margin-top: 30px;
+ }

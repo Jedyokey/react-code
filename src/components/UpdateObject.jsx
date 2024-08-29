@@ -2,8 +2,8 @@ import React from 'react'
 import {useState} from 'react'
 
 const UpdateObject = () => {
+    // Update Objects in state
     const [car, setCar] = useState({year: 2024, make: "Lexus", model: "ES350"});
-
 
     const handleYearChange = (event) => {
         // Note that we're working with the previous state of car

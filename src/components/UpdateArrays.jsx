@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 
 const UpdateArrays = () => {
+    //Update arrays in state
     const [foods, setFoods] = useState(["Apple", "Banana", "Carrot"]);
     const handleAddFood = () => {
         const newFood = document.getElementById("foodInput").value;
@@ -14,6 +15,7 @@ const UpdateArrays = () => {
     }
 
 
+    // Update Array of Objects in state
     const [cars, setCars] = useState([]);
     const [carYear, setCarYear] = useState(new Date().getFullYear());
     const [carMake, setCarMake] = useState("");

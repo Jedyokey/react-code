@@ -2,7 +2,10 @@ import React from 'react'
 import Home from './pages/Home'
 import Conditional from './pages/Conditional'
 import Hooks from './pages/Hooks'
+import ProjectOne from './pages/ProjectOne'
 import NavBtn from './components/NavBtn'
+import UseEffectPage from './pages/UseEffectPage'
+import UseRefPage from './pages/UseRefPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // props = read-only properties that are shared between components.
@@ -22,7 +25,9 @@ const App = () => {
           <Route path='/' element=<Home/> />
           <Route path='/conditional' element=<Conditional/> />
           <Route path='/hooks' element=<Hooks/> />
-          {/* <Route path='/contact' element=<Contact/> />  */}
+          <Route path='/mini-project' element=<ProjectOne/> /> 
+          <Route path='/useEffect&more' element=<UseEffectPage/> /> 
+          <Route path='/useRef&Project' element=<UseRefPage/> /> 
         </Routes>
       </Router> 
     </div>
