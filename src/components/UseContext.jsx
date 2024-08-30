@@ -24,7 +24,7 @@ const UseContext = () => {
 
   return (
     <div className='box'>
-        <h1>Component A</h1>
+        <h1>Component A (useContext())</h1>
         <h2>{`Hello ${user}`}</h2>
         <UserContext.Provider value={user}>
             <ComponentB user={user} /> 

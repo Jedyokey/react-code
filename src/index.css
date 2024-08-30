@@ -270,3 +270,64 @@ body {
   padding: 25px;
   margin-top: 30px;
  }
+
+ /* useRef() begins */
+ .project-3 {
+  background-color: #d8c6c6;
+  height: 100vh;
+  margin: 7px -10px;
+  padding-top: 10px;
+ }
+ .box-container {
+  margin: 20px;
+ }
+
+ /* Stopwatch Project Style */
+ .stopwatch {
+  margin: 30px 60px 0 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 30px;
+ }
+ .stopwatch .display {
+  font-size: 5rem;
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.855);
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 25px;
+  font-weight: bold;
+ }
+ .stopwatch .controls button {
+   font-size: 1.5rem;
+   padding: 10px 20px;
+   cursor: pointer;
+   color: #fff;
+   border: none;
+   border-radius: 9px;
+   font-weight: bold;
+   margin: 5px;
+   min-width: 125px;
+   transition: background-color 0.5s ease;
+ }
+ .stopwatch .controls .start-button {
+  background-color: rgb(31, 205, 22);
+ }
+ .stopwatch .controls .start-button:hover {
+   background-color: rgb(3, 147, 3);
+ }
+ .stopwatch .controls .stop-button {
+  background-color: rgb(255, 47, 47);
+ }
+ .stopwatch .controls .stop-button:hover {
+  background-color: rgb(201, 34, 34);
+ }
+ .stopwatch .controls .reset-button {
+  background-color: rgb(47, 206, 255);
+ }
+ .stopwatch .controls .reset-button:hover {
+  background-color: rgb(31, 142, 176);
+ }

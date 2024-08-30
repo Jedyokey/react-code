@@ -6,12 +6,14 @@ import Button2 from '../components/Button2'
 import Student from '../components/Student'
 import Food from '../components/Food'
 import Footer from '../components/Footer'
+import Stopwatch from '../components/Stopwatch'
 
 const Home = () => {
   
   return (
     <div>
       <Header />
+      <Stopwatch />
       <h1>Card Components</h1>
       <Card />
       <Card />
